@@ -1,7 +1,10 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: url("https://static.vecteezy.com/system/resources/previews/022/459/968/large_2x/abstract-green-landscape-wallpaper-background-illustration-design-with-hills-and-mountains-organic-green-environment-ecology-header-nature-landscape-background-generate-ai-free-photo.jpg);
+body {
+  background: url("https://static.vecteezy.com/system/resources/previews/022/459/968/large_2x/abstract-green-landscape-wallpaper-background-illustration-design-with-hills-and-mountains-organic-green-environment-ecology-header-nature-landscape-background-generate-ai-free-photo.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
 .container {
   width: 90%;
   max-width: 400px;
