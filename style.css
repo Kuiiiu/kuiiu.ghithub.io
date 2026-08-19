@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+body {
+  background: url("https://static.vecteezy.com/system/resources/previews/022/459/968/large_2x/abstract-green-landscape-wallpaper-background-illustration-design-with-hills-and-mountains-organic-green-environment-ecology-header-nature-landscape-background-generate-ai-free-photo.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+.container {
+  width: 90%;
+  max-width: 400px;
+  margin: 80px auto;
+  text-align: center;
+  background: rgba(0,0,0,0.55);
+  padding: 30px;
+  border-radius: 16px;
+  backdrop-filter: blur(3px);
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #a020f0;
+}
+
+.tagline {
+  margin-top: -5px;
+  margin-bottom: 25px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.link-btn {
+  display: block;
+  background: #000;
+  color: #a020f0;
+  padding: 14px;
+  margin: 12px 0;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.link-btn:hover {
+  background: #1a1a1a;
+  transform: translateY(-3px);
+}
